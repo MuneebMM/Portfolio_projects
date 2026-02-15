@@ -1,0 +1,33 @@
+[project]
+name = "deep-researcher-agent"
+version = "0.2.0"
+description = "A multi-stage research workflow agent powered by LangGraph, GPT-5-mini, Scrapy, Playwright, and Qdrant"
+authors = [
+    {name = "Arindam Majumder", email = "arindammajumder2020@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "langchain>=0.3.0",
+    "langgraph>=0.2.0",
+    "langchain-openai>=0.2.0",
+    "langsmith>=0.2.0",
+    "scrapy>=2.11.0",
+    "playwright>=1.48.0",
+    "qdrant-client>=1.12.0",
+    "langchain-qdrant>=0.2.0",
+    "fastapi>=0.115.0",
+    "uvicorn>=0.32.0",
+    "streamlit>=1.40.0",
+    "psycopg2-binary>=2.9.0",
+    "redis>=5.0.0",
+    "sqlalchemy>=2.0.0",
+    "pydantic>=2.0.0",
+    "python-dotenv>=1.0.0",
+    "sse-starlette>=2.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/Arindam200/awesome-ai-apps"
+Repository = "https://github.com/Arindam200/awesome-ai-apps"
+Issues = "https://github.com/Arindam200/awesome-ai-apps/issues"

@@ -1,0 +1,10 @@
+__pycache__
+*.pyc
+.env
+chroma_db/
+.git
+.gitignore
+eval_results.json
+*.egg-info
+.venv
+venv
